@@ -1,5 +1,5 @@
 <?php
-$url = https://raw.githubusercontent.com/powerstomp1984/smart-gacor/main/file.txt';
+$url = 'https://raw.githubusercontent.com/powerstomp1984/smart-gacor/main/file.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
